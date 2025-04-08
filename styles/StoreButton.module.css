@@ -1,0 +1,38 @@
+.store-button {
+  display: flex;
+  align-items: center;
+  width: 160px;
+  height: 45px;
+  padding: 8px 16px;
+  margin: 15px 0;
+  border-radius: 16px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: #000;
+}
+
+.store-button-image {
+  width: 30px;
+}
+
+.store-texts {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 15px; /* Space between image and text */
+}
+.store-text {
+  font-size: 12px;
+  font-weight: 500;
+}
+.store-text-bold {
+  font-size: 20px;
+  margin-top: 5px;
+
+}
