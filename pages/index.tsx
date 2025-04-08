@@ -3,6 +3,7 @@ import Head from 'next/head';
 import HomePage from './home';
 import styles from '../styles/index.module.css';
 import MenuBar from '../components/MenuBar';
+import IntroPage from './intro';
 
 const Home: React.FC = () => {
   return (
@@ -13,10 +14,11 @@ const Home: React.FC = () => {
         <meta name="description" content="Learn Korean with Haru Hangeul" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+√
       <main>
 
         <HomePage />
+        <IntroPage />
         <MenuBar  />
 
 

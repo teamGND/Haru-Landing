@@ -1,0 +1,128 @@
+/* styles/IntroPage.module.css */
+.intro-page {
+  background-color: #DCF4FF; /* Light blue background */
+  padding: 40px 20px;
+  min-height: 60vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Pretendard', sans-serif; /* Using a common sans-serif font */
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #25434f;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1200px; /* Limit the width on large screens */
+  gap: 20px;
+  border: 1px 858585 solid; /* Light blue border */
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px; /* Fixed width for the sidebar */
+}
+
+.intro-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 20px;
+  margin: 5px 0;
+  background-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.intro-item.active {
+  background-color: #ffffff; /* White background when active */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.intro-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.intro-item span {
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+}
+
+.content-container {
+  flex: 1; /* Take up the remaining space */
+  background-color: #ffffff;
+  border: 1px solid #858585; /* Light blue border */
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content-description {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.content-image {
+  width: 100; /* Full width */
+  border-radius: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .intro-page {
+    padding: 20px 10px;
+  }
+
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .intro-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .intro-item {
+    padding: 10px 15px;
+  }
+
+  .intro-item span {
+    font-size: 14px;
+  }
+
+  .intro-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .content-container {
+    padding: 20px;
+  }
+
+  .content-description {
+    font-size: 16px;
+  }
+}

@@ -2,9 +2,9 @@
 .home-page {
   position: relative;
   height: 100vh;
-  background-color: #b3e5fc; /* Light blue background matching the image */
+  background-color: #88DCFD; /* Light blue background matching the image */
   overflow: hidden;
-  font-family: 'Arial', sans-serif; /* Using a common sans-serif font */
+  font-family: 'Pretendard', sans-serif; /* Using a common sans-serif font */
 }
 
 /* Top Navigation Bar */
