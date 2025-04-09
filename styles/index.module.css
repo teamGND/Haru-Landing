@@ -1,0 +1,11 @@
+.container {
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  border-collapse: none;
+  font-family: 'Pretendard', sans-serif; /* Using a common sans-serif font */
+}
+
+body {
+  margin :0;
+}

@@ -15,7 +15,6 @@ const HomePage = () => {
 
   return (
     <div className={styles['home-page']}>
-
       <div className={styles['top-bar']}>
         <img src="images/logo-colored.png" alt="Logo" className={styles.logo} />
         <div className={styles['top-bar-buttons']}>

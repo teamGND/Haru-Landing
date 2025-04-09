@@ -4,6 +4,10 @@ import HomePage from './home';
 import styles from '../styles/index.module.css';
 import MenuBar from '../components/MenuBar';
 import IntroPage from './intro';
+import LevelPage from './level';
+import ReviewsPage from './reviews';
+import FAQPage from './faq';
+import Footer from '../components/Footer';
 
 const Home: React.FC = () => {
   return (
@@ -14,35 +18,19 @@ const Home: React.FC = () => {
         <meta name="description" content="Learn Korean with Haru Hangeul" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-√
       <main>
-
         <HomePage />
         <IntroPage />
+        <LevelPage />
+        <ReviewsPage />
+        <FAQPage />
+
+        {/* Menu Bar */}
         <MenuBar  />
-
-
       </main>
 
-      <footer className={styles.footer}>
-        <p>Try Haru Hangeul for free.</p>
-        <div className={styles.storeButtons}>
-          <a href="#" className={styles.storeButton}>
-            <img src="/images/app-store.png" alt="App Store" />
-            Download on the App Store
-          </a>
-          <a href="#" className={styles.storeButton}>
-            <img src="/images/google-play.png" alt="Google Play" />
-            Get it on Google Play
-          </a>
-        </div>
-        <div className={styles.footerLinks}>
-          <a href="#">Company</a>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
-          <a href="#">Contact Us</a>
-        </div>
-      </footer>
+      {/* Footer Section */}
+      <Footer />
     </div>
   );
 };
