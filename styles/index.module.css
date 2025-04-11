@@ -4,5 +4,6 @@
   margin: 0;
   border-collapse: none;
   font-family: 'Pretendard', sans-serif; /* Using a common sans-serif font */
+  overscroll-behavior: contain;
 }
 
