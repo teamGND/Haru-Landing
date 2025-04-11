@@ -15,7 +15,7 @@ const Home: React.FC = () => {
     <div className={styles.container}>
       {/* Head Section */}
       <Head>
-        <title>Haru Hangeul</title>
+        <title>하루 한글 Learn Korean!</title>
         <meta name="description" content="Learn Korean with Haru Hangeul" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
