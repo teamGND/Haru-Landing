@@ -1,0 +1,136 @@
+/* Top Navigation Bar */
+.top-bar {
+  z-index: 100;
+  margin: 20px;
+  padding: 10px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff; /* White background for the top bar */
+  border: 1px solid #858585; /* Light blue border */
+  border-radius: 25px; /* Rounded corners */
+}
+
+.logo {
+  height: 40px; /* Adjust based on your logo size */
+  color: #2196f3; /* Light blue color for the logo text */
+  font-size: 24px; /* Approximate size based on the image */
+  font-weight: bold;
+}
+
+.top-bar-buttons {
+  display: flex;
+  gap: 15px; /* Spacing between buttons */
+}
+
+.donate-button,
+.download-button,
+.language-button {
+  width: 100px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 40px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.donate-button {
+  background-color: #fff;
+  border: 2px solid #5BD1FF;
+  color: #5BD1FF;
+}
+
+.download-button {
+  background-color: #5BD1FF;
+  border: none; 
+  color: #ffffff;
+}
+
+.language-button {
+  background-color: #ffffff;
+  border: none;
+  color: #858585;
+  font-size: 12px;
+  font-weight: semi-bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Space between text and arrow */
+}
+
+
+/* Language Selector */
+
+.language-selector {
+  position: relative;
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.language-menu {
+  position: absolute;
+  top: 52px; /* Position below the button */
+  right: 0;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 180px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.language-item {
+  padding: 12px 20px;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.language-item:hover {
+  background-color: #f0f0f0;
+}
+
+.checkmark {
+  color: #000;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .logo,
+  .download-button {
+    display: none;
+  }
+
+  .top-bar {
+    padding: 10px;
+    align-items: center;
+    justify-content: end;
+    background-color: transparent; /* Transparent background for mobile */
+    border: none;
+  }
+
+  .donate-button
+ {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+
+  .language-button {
+    font-size: 12px;
+    background-color: transparent; /* Transparent background for mobile */
+  }
+
+  .language-menu {
+    padding: 8px;
+  }
+
+  .language-item {
+    font-size: 12px;
+  }
+}

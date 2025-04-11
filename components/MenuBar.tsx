@@ -31,9 +31,11 @@ const MenuBar: React.FC = () => {
     >
       {!isFolded && (
         <div className={styles['menu-items']}>
-          <a href="#levels" className={styles['menu-item']}>Levels</a>
-          <a href="#info"className={styles['menu-item']} >Info</a>
-          <a href="#guide"className={styles['menu-item']}>Guide</a>
+          <a href="#home" className={styles['menu-item']}>하루 한글</a>
+          <a href="#intro"className={styles['menu-item']} >Info</a>
+          <a href="#levels"className={styles['menu-item']}>Level</a>
+          <a href="#reviews"className={styles['menu-item']}>Reviews</a>
+          <a href="#faq"className={styles['menu-item']}>FAQ</a>
           <a href="#contact"className={styles['menu-item']}>Contact</a>
         </div>
       )}

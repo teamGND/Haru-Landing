@@ -15,8 +15,8 @@ const LevelPage: React.FC = () => {
 
   return (
     <section id="levels" className={styles['level-page']}>
+      <h2 className={styles['section-title']}>등급별 학습</h2>
       <div className={styles['header']}>
-        <h2 className={styles['section-title']}>등급별 학습</h2>
         <a href="#level-test" className={styles['test-button']}>
           <div>
             If you don’t know your level
@@ -25,6 +25,7 @@ const LevelPage: React.FC = () => {
           <span className={styles['arrow']}>→</span>
         </a>
       </div>
+
 
       <div className={styles['table-container']}>
         <table className={styles['level-table']}>

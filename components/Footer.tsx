@@ -1,43 +1,37 @@
 // components/Section.tsx
-import { ReactNode } from 'react';
 import styles from '../styles/Footer.module.css';
-import StoreButton from './StoreButton';
 
 const Footer: React.FC = () => { 
   return (
     <footer className={styles.footer}>
-      <div className={styles['footer-content']}>
-        <h3 className={styles['footer-title']}>Try Haru Hangeul for free.</h3>
-        <div className={styles['download-buttons']}>
-        <StoreButton downloadText='Download on the' storeText='App Store' imageUrl='images/app-store.png' linkUrl='' />
-        <StoreButton downloadText='GET IT ON' storeText='Google Play' imageUrl='images/google-play.png' linkUrl='' />
-        </div>
-      </div>
-      <div className={styles['footer-bottom']}>
         <div className={styles['footer-slogan']}>
-          <p>Digital Transformation for Equal Education Opportunities for Every Child</p>
-          <p className={styles['footer-logo']}>하루한글</p>
+          <div className={styles['footer-text']}>
+            <p>Digital Transformation</p>
+            <p>for Equal Education Opportunities</p>
+            <p>for Every Child</p>
+          </div>
+          <img src="/images/logo-white.png" alt="Logo" className={styles['footer-logo']} />
         </div>
         <div className={styles['footer-links']}>
           <div className={styles['footer-column']}>
             <h4>Company</h4>
-            <a href="#">About Us</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
+            <a href="privacy">Privacy Policy</a>
+            <a href="terms">Terms of Service</a>
           </div>
-          <div className={styles['footer-column']}>
+          {/* <div className={styles['footer-column']}>
             <h4>Product</h4>
             <a href="#">Delete Account</a>
-          </div>
+          </div> */}
           <div className={styles['footer-column']}>
             <h4>Support</h4>
+            <a href="mailto:haru_admin@haruhangeul.com">Email</a>
           </div>
           <div className={styles['footer-column']}>
             <h4>Download</h4>
+            <a href="https://apps.apple.com/in/app/%ED%95%98%EB%A3%A8-%ED%95%9C%EA%B8%80/id6738025044?uo=2">App Store</a>
           </div>
         </div>
-      </div>
-      </footer>
+    </footer>
     );
 };
 

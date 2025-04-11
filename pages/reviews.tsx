@@ -24,16 +24,16 @@ const ReviewsPage: React.FC = () => {
 
   return (
     <section id="reviews" className={styles['reviews-page']}>
-      <h2 className={styles['section-title']}>사용자 후기</h2>
+      <div className={styles['section-title']}>사용자 후기</div>  
       <div className={styles['reviews-container']}>
         {reviews.map((review, index) => (
           <div key={index} className={styles['review-card']}>
             <p className={styles['review-author']}>{review.author}</p>
-            <p className={styles['review-quote']}>
+            <div className={styles['review-quote']}>
               <div className={styles['quote-mark']}>“</div>
               {review.quote}
               <div className={styles['quote-mark']}>”</div>
-            </p>
+            </div>
           </div>
         ))}
       </div>

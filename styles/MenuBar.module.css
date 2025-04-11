@@ -1,6 +1,7 @@
 /* General styles for the menu bar */
 .menu-bar {
   position: fixed;
+  z-index: 100;
   bottom: 5vh;
   right: 20px;
   display: flex;

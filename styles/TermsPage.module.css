@@ -1,0 +1,164 @@
+/* styles/TermsPage.module.css */
+.terms-page {
+  height: 100vh; /* Take up the full viewport height */
+  background-color: #f5faff; /* Light blue background */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden; /* Prevent scrolling of the entire page */
+  font-family: "Pretendard", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+  flex-shrink: 0; /* Prevent the header from shrinking */
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #25434f;
+}
+
+.cancel-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #666;
+  cursor: pointer;
+}
+
+.content-container {
+  position: relative;
+  width: 100%;
+  height: 70vh; /* Take up 90% of the viewport height */
+  flex: 1; /* Take up the remaining space */
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 100px;
+  display: flex;
+  overflow: hidden; /* Ensure the container itself doesn't scroll */
+}
+
+.scrollbar-container {
+  width: 8px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  position: absolute;
+  right: 10px; /* Position on the right */
+  top: 10px;
+  bottom: 10px;
+}
+
+.scrollbar-thumb {
+  width: 100%;
+  background-color: #ffca28; /* Yellow scrollbar thumb */
+  border-radius: 4px;
+  position: absolute;
+  left: 0;
+  transition: transform 0.1s linear;
+}
+
+.content {
+  flex: 1;
+  padding: 20px 50px 20px 30px; /* Extra padding on the right for the scrollbar */
+  overflow-y: auto; /* Only this div should scroll */
+  scrollbar-width: none; /* Hide default scrollbar in Firefox */
+}
+
+.content::-webkit-scrollbar {
+  display: none; /* Hide default scrollbar in WebKit browsers */
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #25434f;
+  margin-bottom: 10px;
+}
+
+.section-content {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+  white-space: pre-wrap; /* Preserve line breaks */
+}
+
+.content-list {
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.content-list-item {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.content-list-item::before {
+  content: '•'; /* Custom bullet point */
+  position: absolute;
+  left: -20px;
+  color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .terms-page {
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .cancel-button {
+    font-size: 20px;
+  }
+
+  .content {
+    padding: 15px 40px 15px 20px; /* Adjust padding for smaller screens */
+  }
+
+  .section-title {
+    font-size: 16px;
+  }
+
+  .section-content,
+  .content-list-item {
+    font-size: 12px;
+  }
+
+  .content-list {
+    padding-left: 15px;
+  }
+
+  .content-list-item::before {
+    left: -15px;
+  }
+}

@@ -8,6 +8,7 @@ import LevelPage from './level';
 import ReviewsPage from './reviews';
 import FAQPage from './faq';
 import Footer from '../components/Footer';
+import ContactPage from './contact';
 
 const Home: React.FC = () => {
   return (
@@ -24,6 +25,7 @@ const Home: React.FC = () => {
         <LevelPage />
         <ReviewsPage />
         <FAQPage />
+        <ContactPage />
 
         {/* Menu Bar */}
         <MenuBar  />

@@ -1,43 +1,14 @@
 // pages/home.tsx
 import React, { useState } from 'react';
 import styles from '../styles/HomePage.module.css';
-import MenuBar from '../components/MenuBar';
 import StoreButton from '../components/StoreButton';
+import TopBar from '../components/TopBar';
 
 const HomePage = () => {
-  const [isLanguageMenuOpen, setIsLanguageMenuOpen] = useState(false);
-
-  const toggleLanguageMenu = () => {
-    setIsLanguageMenuOpen(!isLanguageMenuOpen);
-  };
-
-  const languages = ['Korean', 'English', 'Chinese (Simplified)', 'Vietnamese', 'Russian'];
 
   return (
-    <div className={styles['home-page']}>
-      <div className={styles['top-bar']}>
-        <img src="images/logo-colored.png" alt="Logo" className={styles.logo} />
-        <div className={styles['top-bar-buttons']}>
-          <button className={styles['donate-button']}>DONATE</button>
-          <button className={styles['download-button']}>DOWNLOAD</button>
-          <div className={styles['language-selector']}>
-            <button onClick={toggleLanguageMenu} className={styles['language-button']}>
-              KOREAN ▼
-            </button>
-            {isLanguageMenuOpen && (
-              <div className={styles['language-menu']}>
-                {languages.map((language, index) => (
-                  <div key={index} className={styles['language-item']}>
-                    {language}
-                    {language === 'English' && <span className={styles.checkmark}>✔</span>}
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-        </div>
-      </div>
-
+    <section id="home" className={styles['home-page']}>
+   
       {/* Background Character Images */}
       <img
         src="images/character-pink.png"
@@ -62,6 +33,11 @@ const HomePage = () => {
 
       {/* Centered Content */}
       <div className={styles['center-content']}>
+        <img
+            src="images/logo.png"
+            alt="Logo"
+            className={styles['center-logo']}
+          />
         <h1 className={styles.title}>
           <span className={styles.highlight}>10대</span>부터 성인까지{' '}
           <span className={styles.highlight}>스스로</span> <br />
@@ -73,12 +49,15 @@ const HomePage = () => {
           <span className={styles.divider}>|</span> Русский
         </p>
         <div className={styles['store-buttons']}>
-          <StoreButton downloadText='Download on the' storeText='App Store' imageUrl='images/app-store.png' linkUrl='' />
+          <StoreButton downloadText='Download on the' storeText='App Store' imageUrl='images/app-store.png' linkUrl='https://apps.apple.com/in/app/%ED%95%98%EB%A3%A8-%ED%95%9C%EA%B8%80/id6738025044?uo=2' />
           <StoreButton downloadText='GET IT ON' storeText='Google Play' imageUrl='images/google-play.png' linkUrl='' />
         </div>
       </div>
-    </div>
+         {/* Top Bar */}
+     <TopBar />
+
+    </section>
   );
 };
 
-export default HomePage;
+export default HomePage;  

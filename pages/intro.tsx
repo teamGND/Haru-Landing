@@ -72,14 +72,14 @@ const IntroPage: React.FC = () => {
 
         {/* Right Content Container */}
         <div className={styles['content-container']}>
-          <div className={styles['content-description']}>
+          {/* <div className={styles['content-description']}>
             {activeItem.description.split('\n').map((line, index) => (
               <span key={index}>
                 {line}
                 {index < activeItem.description.split('\n').length - 1 && <br />}
               </span>
             ))}
-          </div>
+          </div> */}
           {activeItem.image && (
             <img
               src={activeItem.image}
