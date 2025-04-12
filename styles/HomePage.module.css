@@ -82,6 +82,7 @@
 
 .store-buttons {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   gap: 15px; /* Spacing between buttons */
 }
@@ -89,7 +90,6 @@
 /* Responsive adjustments */
 @media (max-width: 768px) {
   
-
   .center-logo {
     display: block; /* Show the logo in mobile mode */
     height: 90px;
@@ -106,4 +106,8 @@
     margin-bottom: 50px;
   }
 
+  .store-buttons {
+    flex-direction: column;
+    gap:0;
+  }
 }

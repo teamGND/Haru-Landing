@@ -23,3 +23,23 @@
   justify-content: center;
   gap: 15px;
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+
+  .contact-page {
+    align-items: center;
+  }
+
+  .footer-title {
+    font-size: 24px;
+  }
+  
+  .download-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+}
