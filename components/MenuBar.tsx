@@ -1,10 +1,15 @@
 // components/MenuBar.tsx
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import styles from '../styles/MenuBar.module.css';
 
 const MenuBar: React.FC = () => {
   const [isFolded, setIsFolded] = useState(false);
   const [isScrolled, setIsScrolled] = useState<boolean>(false);
+
+  const toggleMenu = () => {
+    setIsFolded(!isFolded);
+  };
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,9 +24,7 @@ const MenuBar: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const toggleMenu = () => {
-    setIsFolded(!isFolded);
-  };
+
 
   return (
     <div
@@ -36,7 +39,6 @@ const MenuBar: React.FC = () => {
           <a href="#levels"className={styles['menu-item']}>Level</a>
           <a href="#reviews"className={styles['menu-item']}>Reviews</a>
           <a href="#faq"className={styles['menu-item']}>FAQ</a>
-          <a href="#contact"className={styles['menu-item']}>Contact</a>
         </div>
       )}
       {/* Blue character icon (always visible, clickable to toggle) */}

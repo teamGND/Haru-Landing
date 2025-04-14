@@ -1,0 +1,136 @@
+{
+  "title": "Haru Hangeul",
+  "menu_bar": {
+    "home": "Trang chủ",
+    "info": "Giới thiệu",
+    "level": "Cấp độ",
+    "reviews": "Người dùng",
+    "faq": "Câu hỏi"
+  },
+  "home": {
+      "title": [
+        "*Thiếu niên ",
+        "đến người lớn ",
+        "*tự học ",
+        "*tiếng Hàn ",
+        "dễ dàng vui vẻ"
+      ]
+  },
+  "header": {
+    "intro": "Giới thiệu ứng dụng Haru Hangeul",
+    "level": "Học theo cấp độ",
+    "reviews": "Dành cho những ai!",
+    "faq": "Câu hỏi thường gặp",
+    "contact": "Tải ngay và dùng miễn phí."
+  },
+  "intro": [
+    "Một sách được lợi ích bốn",
+    "Nghiên cứu từ chuyên gia tiếng Hàn",
+    "Phản hồi học tập cá nhân hóa",
+    "Học vui như chơi cùng nhân vật"
+  ],
+  "level_column": {
+    "alhpabet": "Phụ âm & Nguyên âm",
+    "beginner": "Cơ bản",
+    "elementary": "Sơ cấp",
+    "intermediate_low": "Trung cấp 1",
+    "intermediate_high": "Trung cấp 2",
+    "advanced": "Cao cấp"
+  },
+  "level_row": {
+    "vocabulary": "Từ vựng",
+    "grammar": "Ngữ pháp",
+    "expression": "Biểu đạt",
+    "duration": "Thời gian học"
+  },
+  "level_contents": {
+    "vocabulary": [
+      "30 từ",
+      "400 từ",
+      "800 từ",
+      "1300 từ",
+      "2000 từ",
+      "3000+ từ"
+    ],
+    "grammar": [
+      "Đọc viết Hangeul",
+      "Cấu trúc câu cơ bản, cụm từ, hội thoại ngắn",
+      "Biểu đạt nói viết, luyện phát âm",
+      "Biểu đạt đoạn văn",
+      "Câu điều kiện, đuôi câu, kính ngữ",
+      "Câu phức với đuôi, kính ngữ, như -로서, -는 줄",
+      "Nhận biết ngữ pháp tinh tế, khác biệt vùng"
+    ],
+    "expression": [
+      "-",
+      "Tự giới thiệu, gọi món, mua sắm",
+      "Biểu đạt đoạn văn",
+      "Viết đơn giản, hiểu đoạn văn",
+      "Biểu đạt trang trọng, văn phong báo chí",
+      "Hiểu cấp chuyên môn, mẫu tin tức"
+    ],
+    "period": [
+      "10 ngày",
+      "1-2 tháng",
+      "2-3 tháng",
+      "3-4 tháng",
+      "4-6 tháng",
+      "6+ tháng"
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Giáo viên tiếng Hàn",
+      "quote": "Tôi có thể quản lý bài học phù hợp với ngôn ngữ, trình độ và thời gian bắt đầu của học sinh nhập cư, rất hữu ích cho việc giảng dạy."
+    },
+    {
+      "author": "Du học sinh tại Hàn Quốc",
+      "quote": "Tôi muốn nói tiếng Hàn tốt, nhưng học thì chán. Vui hơn sách vở nhiều, tôi sẽ giới thiệu cho bạn bè."
+    },
+    {
+      "author": "Phụ huynh nhập cư có con tuổi teen",
+      "quote": "Sau khi nhập cư vào Hàn Quốc, gần nhà không có trường hay trung tâm tiếng Hàn, tôi lo lắng về việc con thích nghi ở trường và cuộc sống. Học với Haru Hangeul đã giúp con tiến bộ rõ rệt."
+    },
+    {
+      "author": "Người học tiếng Hàn vì sở thích",
+      "quote": "Trường ngôn ngữ quá đắt, tự học thì thấy mông lung. Tôi đã thử nhiều cách, nhưng Haru Hangeul kết hợp ưu điểm của sách và khóa học trực tuyến, rất phù hợp cho người mới bắt đầu."
+    }
+  ],
+  "reviews_fallback": "Chưa có đánh giá nào.",
+  "faq": [
+    {
+      "q": "Học bằng ngôn ngữ khác thế nào?",
+      "a": "Haru Hangeul hiện hỗ trợ Anh, Trung, Việt và Nga.\nNgôn ngữ khác sẽ thêm theo yêu cầu. Theo dõi Instagram (@haru_hangeul) để cập nhật."
+    },
+    {
+      "q": "Làm sao để hoàn tiền?",
+      "a": "Haru Hangeul thanh toán qua App Store và Google Play, hoàn tiền theo chính sách của họ. Vui lòng liên hệ hỗ trợ App Store hoặc Google Play."
+    },
+    {
+      "q": "Haru Hangeul có miễn phí không?",
+      "a": "Vâng, Haru Hangeul miễn phí, không quảng cáo. Nếu thích, hãy giới thiệu bạn bè. Đóng góp giúp chúng tôi thêm tính năng và nội dung.\nLink: https://www.paypal.com/ncp/payment/SG466C5KKQQJW"
+    },
+    {
+      "q": "Chứng nhận đối tác là gì?",
+      "a": "Haru Hangeul hợp tác với các cơ sở giáo dục tiếng Hàn để cấp chứng nhận. Cơ sở được chứng nhận dùng logo chính thức và nhận tài liệu hỗ trợ."
+    },
+    {
+      "q": "Làm sao tham gia đối tác?",
+      "a": "Để tham gia đối tác, liên hệ qua email Haru Hangeul. Sau khi duyệt, bạn sẽ được đăng ký và nhận hỗ trợ.\nEmail: haru_admin@haruhangeul.com"
+    }
+  ],
+  "en": "Tiếng Anh",
+  "zh": "Tiếng Trung",
+  "vi": "Tiếng Việt",
+  "ru": "Tiếng Nga",
+  "store": {
+    "apple": {
+      "download": "Tải từ",
+      "name": "App Store"
+    },
+    "google": {
+      "download": "Cài từ",
+      "name": "Google Play"
+    }
+  }
+}

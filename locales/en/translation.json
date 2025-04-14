@@ -1,0 +1,141 @@
+{
+  "title": "Haru Hangeul",
+  "menu_bar": {
+    "home": "Home",
+    "info": "About",
+    "level": "Levels",
+    "reviews": "Users",
+    "faq": "FAQ"
+  },
+  "home": {
+    "title": [
+      "*Teens ",
+      "to adults ",
+      "*self-paced ",
+      "*Korean ",
+      "learning made easy and fun"
+    ]
+  },
+  "header": {
+    "intro": "Introduction to Haru Hangeul App",
+    "level": "Learning by Level",
+    "reviews": "Recommended for these users!",
+    "faq": "Frequently Asked Questions",
+    "contact": "Download now and try it for free."
+  },
+  "intro": [
+    "Benefits of 4 books for the price of 1",
+    "Research by Korean education experts",
+    "Personalized learning feedback",
+    "Fun learning with characters like a game"
+  ],
+  "level_column": {
+    "alhpabet": "Consonants & Vowels",
+    "beginner": "Beginner",
+    "elementary": "Elementary",
+    "intermediate_low": "Intermediate 1",
+    "intermediate_high": "Intermediate 2",
+    "advanced": "Advanced"
+  },
+  "level_row": {
+    "vocabulary": "Vocabulary",
+    "grammar": "Grammar",
+    "expression": "Expressions",
+    "duration": "Duration"
+  },
+  "level_contents": {
+    "vocabulary": [
+      "30 words",
+      "400 words",
+      "800 words",
+      "1,300 words",
+      "2,000 words",
+      "3,000+ words"
+    ],
+    "grammar": [
+      "Reading and writing Hangeul",
+      "Basic sentence structure, common phrases, short dialogues",
+      "Written and spoken expressions, pronunciation practice",
+      "Paragraph-level expressions",
+      "Conditional sentences, endings, honorific structures",
+      "Complex sentences with endings, honorifics, e.g., -로서, -는 줄",
+      "Subtle grammar nuances, understanding regional differences"
+    ],
+    "expression": [
+      "-",
+      "Self-introduction, ordering items, food orders",
+      "Paragraph-level expressions",
+      "Simple writing, understanding paragraph expressions",
+      "Formal expressions, including editorial styles",
+      "Professional-level understanding, political/news patterns"
+    ],
+    "period": [
+      "10 days",
+      "1-2 months",
+      "2-3 months",
+      "3-4 months",
+      "4-6 months",
+      "6+ months"
+    ]
+  },
+  "level_test": {
+    "prompt": "If you don’t know your level",
+    "begin": "BEGIN THE TEST"
+  },
+  "reviews": [
+    {
+      "author": "Korean Language Teacher",
+      "quote": "I can manage lessons tailored to migrant students’ language, level, and starting time, making it very useful for my classes."
+    },
+    {
+      "author": "Foreign Student in Korea",
+      "quote": "I wanted to speak Korean well, but studying was boring. It’s more fun than books, so I recommend it to my friends."
+    },
+    {
+      "author": "Migrant Parent with Teenage Children",
+      "quote": "After immigrating to Korea, there were no Korean language schools or centers nearby, so I worried about my child’s school and social adjustment. Studying with Haru Hangeul has noticeably improved their skills."
+    },
+    {
+      "author": "Anyone Learning Korean as a Hobby",
+      "quote": "Language schools are too expensive, and self-study felt overwhelming. I tried various methods, but Haru Hangeul combines the benefits of books and online courses, making it great for beginners learning Korean on their own."
+    }
+  ],
+  "reviews_fallback": "No reviews available yet.",
+  "faq": [
+    {
+      "q": "How can I learn in other languages?",
+      "a": "Haru Hangeul currently supports English, Chinese, Vietnamese, and Russian.\nOther languages will be added based on user requests. Follow Haru Hangeul on Instagram (@haru_hangeul) for updates."
+    },
+    {
+      "q": "How do I get a refund?",
+      "a": "Payments for Haru Hangeul are processed via the App Store or Google Play Store, and refunds follow their policies. Please contact the App Store or Google Play Store support for refund requests."
+    },
+    {
+      "q": "Is Haru Hangeul free?",
+      "a": "Yes, Haru Hangeul is provided free without ads. If you enjoy Haru Hangeul, please recommend it to friends. Donations help us provide more features and content.\nDonation link: https://www.paypal.com/ncp/payment/SG466C5KKQQJW"
+    },
+    {
+      "q": "What is partner institution certification?",
+      "a": "Haru Hangeul collaborates with Korean education institutions to provide certification. Certified institutions can use the official Haru Hangeul certification mark and receive educational materials and support."
+    },
+    {
+      "q": "How can I join as a partner institution?",
+      "a": "To join as a partner institution, you can request via Haru Hangeul's email. Once approved, you'll be registered and receive the certification mark and support.\nHaru Hangeul email: haru_admin@haruhangeul.com"
+    }
+  ],
+  
+  "en": "ENGLISH",
+  "zh": "汉语",
+  "vi": "Tiếng Việt",
+  "ru": "Русский",
+  "store": {
+    "apple": {
+      "download": "Download on the",
+      "name": "App Store"
+    },
+    "google": {
+      "download": "GET IT ON",
+      "name": "Google Play"
+    }
+  }
+}

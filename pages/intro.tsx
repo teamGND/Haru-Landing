@@ -1,71 +1,65 @@
-// components/IntroScreen.tsx
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import styles from '../styles/IntroPage.module.css';
 
-// Define the type for each intro item
-interface IntroItem {
-  id: number;
-  icon: string; // URL for the icon image
-  title: string;
-  description: string;
-  image: string; // URL for the image to display on the right
-}
-
 const IntroPage: React.FC = () => {
-  // Define the intro items data
-   const introItems: IntroItem[] = [
-    {
-      id: 1,
-      icon: 'images/intro-1.png', // Replace with actual icon path
-      title: '교재 1권 가격으로\n4권의 혜택을',
-      description: '교재 1권 가격으로\n4권의 혜택을',
-      image: 'images/mockup.png', // Replace with actual image path
-    },
-    {
-      id: 2,
-      icon: 'images/intro-2.png',
-      title: '한국어 교육\n전공자의 연구 결과',
-      description: '평생 가입 안정 응원서비스.',
-      image: 'images/mockup.png', // Replace with actual image path
-    },
-    {
-      id: 3,
-      icon: 'images/intro-3.png',
-      title: '나에게 꼭 맞는\n학습 피드백으로',
-      description: '빨리 배울 수',
-      image: 'images/mockup.png', // Replace with actual image path
-    },
-    {
-      id: 4,
-      icon: 'images/intro-4.png',
-      title: '캐릭터와 함께\n게임처럼 재미있게',
-      description: '',
-      image: 'images/mockup.png', // Replace with actual image path
-    },
-  ];
+  const { t, i18n } = useTranslation();
 
-  // State to track the active item
-  const [activeItemId, setActiveItemId] = useState<number>(introItems[0].id);
+  // Log current language for debugging
+  console.log('Current language:', i18n.language);
 
-  // Find the active item to display its content on the right
-  const activeItem = introItems.find((item) => item.id === activeItemId) || introItems[0];
+  // Fetch the intro array directly
+  const introItemsRaw = t('intro', { returnObjects: true });
+  const introItems = Array.isArray(introItemsRaw) ? introItemsRaw : [];
+  console.log('introItems:', introItems);
+
+  // State to track the active item (0-based index)
+  const [activeItemId, setActiveItemId] = useState<number>(0);
+
+  // Define the number of intro items
+  const introCount = introItems.length || 4; // Fallback to 4 if empty
+
+  // Get the active item's data
+  const activeItem = {
+    title: introItems[activeItemId] || t('intro_fallback', 'Introduction item'),
+    description: introItems[activeItemId] || t('intro_fallback', 'Introduction item'),
+    image: 'images/mockup.png',
+  };
 
   return (
     <section id="intro" className={styles['intro-page']}>
-      <h2 className={styles['section-title']}>하루한글 앱서비스 소개</h2>
+      <h2 className={styles['section-title']}>
+        {t('header.intro', 'Introduction')}
+      </h2>
       <div className={styles['intro-container']}>
         {/* Left Sidebar */}
         <div className={styles['sidebar']}>
-          {introItems.map((item) => (
+          {Array.from({ length: introCount }).map((_, index) => (
             <div
-              key={item.id}
+              key={index}
               className={`${styles['intro-item']} ${
-                activeItemId === item.id ? styles.active : ''
+                activeItemId === index ? styles.active : ''
               }`}
-              onClick={() => setActiveItemId(item.id)}
+              onClick={() => setActiveItemId(index)}
             >
-              <img src={item.icon} alt={item.title} className={styles['intro-icon']} />
-              <span>{item.title}</span>
+              <img
+                src={`images/intro-${index + 1}.png`}
+                alt={introItems[index] || `Intro ${index + 1}`}
+                className={styles['intro-icon']}
+              />
+              <span>
+                {(introItems[index] || t('intro_fallback', 'Introduction item'))
+                  .split('\n')
+                  .map((line:String, lineIndex:number) => (
+                    <React.Fragment key={lineIndex}>
+                      {line}
+                      {lineIndex <
+                        (introItems[index] || t('intro_fallback')).split('\n')
+                          .length -
+                          1 && <br />}
+                    </React.Fragment>
+                  ))}
+              </span>
             </div>
           ))}
         </div>
@@ -73,7 +67,7 @@ const IntroPage: React.FC = () => {
         {/* Right Content Container */}
         <div className={styles['content-container']}>
           {/* <div className={styles['content-description']}>
-            {activeItem.description.split('\n').map((line, index) => (
+            {activeItem.description.split('\n').map((line:String, index:number) => (
               <span key={index}>
                 {line}
                 {index < activeItem.description.split('\n').length - 1 && <br />}
@@ -83,7 +77,7 @@ const IntroPage: React.FC = () => {
           {activeItem.image && (
             <img
               src={activeItem.image}
-              alt="Content Image"
+              alt={t('content_image_alt', 'Content image')}
               className={styles['content-image']}
             />
           )}

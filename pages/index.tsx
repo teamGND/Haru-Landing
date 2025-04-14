@@ -10,12 +10,13 @@ import FAQPage from './faq';
 import Footer from '../components/Footer';
 import ContactPage from './contact';
 
+
 const Home: React.FC = () => {
   return (
     <div className={styles.container}>
       {/* Head Section */}
       <Head>
-        <title>하루 한글 Learn Korean!</title>
+        <title>{}</title>
         <meta name="description" content="Learn Korean with Haru Hangeul" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
