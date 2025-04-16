@@ -29,6 +29,7 @@ const Home: React.FC = () => {
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="naver-site-verification" content="d8768c8ff43c65f80190ff49aab3e93b784cbea6" />
+        <meta name="google-site-verification" content="aa4RKAuGNHypg3RLf_N2VGiK_h7NL4t4Lmf02-JUvSw" />
         <link rel="canonical" href="https://www.haruhangeul.com" />
         <link rel="icon" href="/favicon.ico" />
         <script type="application/ld+json">
