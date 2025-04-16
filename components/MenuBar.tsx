@@ -10,7 +10,6 @@ const MenuBar: React.FC = () => {
     setIsFolded(!isFolded);
   };
 
-
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
@@ -23,8 +22,6 @@ const MenuBar: React.FC = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
-
 
   return (
     <div
