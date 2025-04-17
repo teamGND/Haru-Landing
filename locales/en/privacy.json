@@ -1,0 +1,72 @@
+{
+  "data" :{
+    "page_title": "Privacy Policy",
+   "contents" : [
+  {
+    "content": "HaruHangul (hereinafter referred to as the 'Company') establishes and discloses the following Privacy Policy to protect the personal information of users (hereinafter referred to as 'Users') in accordance with the Personal Information Protection Act and to promptly and effectively address related grievances."
+  },
+  {
+    "title": "1. Purpose of Processing Personal Information",
+    "content": "The Company processes personal information for the following purposes. Processed personal information will not be used for purposes other than those specified, and prior consent will be obtained if the purpose of use changes.",
+    "contentList": [
+      "Service Provision and Operation: Personal information is processed to provide learning content related to service provision, customized services, and information.",
+      "Customer Management: Personal information is processed for identity verification, grievance handling, and complaint resolution related to service use.",
+      "Marketing and Advertising: Personal information is processed for statistical analysis to develop new services and provide customized advertisements."
+    ]
+  },
+  {
+    "title": "2. Retention and Processing Period of Personal Information",
+    "content": "The Company processes and retains personal information within the retention and use period stipulated by law or agreed upon with the User.",
+    "contentList": [
+      "Membership Registration and Management: Until membership withdrawal.",
+      "Grievance Handling: 3 years after grievance resolution.",
+      "E-commerce Related: Retained for 5 years in accordance with the Commercial Act and the Act on Consumer Protection in Electronic Commerce."
+    ]
+  },
+  {
+    "title": "3. Provision of Personal Information to Third Parties",
+    "content": "The Company may provide personal information to third parties in accordance with Articles 17 and 18 of the Personal Information Protection Act. When providing personal information to third parties, the Company will obtain the consent of the data subject and clearly notify them of the recipient, purpose, and items provided."
+  },
+  {
+    "title": "4. Rights and Obligations of Data Subjects and Legal Representatives, and Methods of Exercise",
+    "content": "Data subjects may exercise their rights to access, correct, delete, or suspend the processing of their personal information at any time. These rights can be exercised through written requests, email, or other means, and the Company will take action without delay."
+  },
+  {
+    "title": "5. Items of Personal Information Processed",
+    "content": "The Company processes the following personal information items.",
+    "contentList": [
+      "Mandatory Items: Name, date of birth, email, language, learning purpose, service usage records.",
+      "Optional Items: Gender, duration of residence in Korea, nationality, payment information."
+    ]
+  },
+  {
+    "title": "6. Procedures and Methods for Destruction of Personal Information",
+    "content": "The Company will destroy personal information without delay when the retention period expires, the processing purpose is achieved, or the information becomes unnecessary. Electronic files are destroyed using methods that prevent recovery, and personal information recorded on paper documents is destroyed by shredding.",
+    "contentList": [
+      "Destruction Procedure: Personal information is destroyed immediately upon the occurrence of a reason for destruction.",
+      "Destruction Method: Electronic files are destroyed using non-recoverable methods, and paper documents are shredded using a shredder."
+    ]
+  },
+  {
+    "title": "7. Measures to Ensure the Security of Personal Information",
+    "content": "The Company takes the following measures to ensure the security of personal information.",
+    "contentList": [
+      "Administrative Measures: Establishment and implementation of an internal management plan, employee training.",
+      "Technical Measures: Management of access rights to personal information processing systems, installation of access control systems."
+    ]
+  },
+  {
+    "title": "8. Personal Information Protection Officer",
+    "content": "The Company designates a Personal Information Protection Officer to oversee personal information processing tasks and address grievances related to personal information protection, as follows.",
+    "contentList": [
+      "Personal Information Protection Officer: Yeonjin Nam",
+      "Contact: haruhanguel5@gmail.com"
+    ]
+  },
+  {
+    "title": "9. Remedies for Infringement of Rights",
+    "content": "Data subjects may apply for dispute resolution or consultation with the Personal Information Dispute Mediation Committee, the Personal Information Infringement Report Center, or other relevant organizations to seek remedies for damages caused by personal information infringement."
+  }
+  ]
+  }
+}

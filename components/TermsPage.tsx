@@ -9,13 +9,20 @@ interface TermsContent {
   contentList?: string[];
 }
 
+
+export interface TermsContentObject {
+  page_title: string;
+  contents: TermsContent[];
+}
+
 interface TermsPageProps {
   title: string;
-  content: TermsContent[];
+  contents: TermsContent[];
   iconUrl: string;
 }
 
-const TermsPage: React.FC<TermsPageProps> = ({ title, content, iconUrl }) => {
+
+const TermsPage: React.FC<TermsPageProps> = ({ title, contents, iconUrl }) => {
   const router = useRouter();
   const contentRef = useRef<HTMLDivElement>(null);
   const [scrollHeight, setScrollHeight] = useState(0);
@@ -76,7 +83,7 @@ const TermsPage: React.FC<TermsPageProps> = ({ title, content, iconUrl }) => {
       </div>
       <div className={styles['content-container']}>
         <div className={styles.content} ref={contentRef}>
-          {content.map((section, index) => (
+          {contents.map((section, index) => (
             <div key={index} className={styles.section}>
               {section.title && <h2 className={styles['section-title']}>{section.title}</h2>}
               {section.content && (

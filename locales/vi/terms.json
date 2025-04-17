@@ -1,0 +1,111 @@
+{
+  "data": {
+  "page_title": "Điều khoản sử dụng",
+  "contents" :[
+  {
+    "title": "Điều 1 (Mục đích)",
+    "content": "Thỏa thuận này (sau đây gọi là 'Thỏa thuận') nhằm quy định các quyền, nghĩa vụ và trách nhiệm giữa HaruHangul (sau đây gọi là 'Công ty') và khách hàng (sau đây gọi là 'Khách hàng') sử dụng dịch vụ ứng dụng do Công ty cung cấp (sau đây gọi là 'Dịch vụ')."
+  },
+  {
+    "title": "Điều 2 (Định nghĩa thuật ngữ)",
+    "contentList": [
+      "1. 'Tài khoản' là thông tin định danh duy nhất do Khách hàng tạo ra để sử dụng Dịch vụ.",
+      "2. 'Nội dung' là văn bản, hình ảnh, âm thanh, video, phần mềm, v.v., được cung cấp trong Dịch vụ.",
+      "3. 'Nội dung đăng tải' là tất cả nội dung do Khách hàng tải lên hoặc gửi đến Dịch vụ.",
+      "4. 'Dịch vụ trả phí' là các dịch vụ hoặc nội dung được cung cấp với một khoản phí.",
+      "5. 'Tiền tệ trong trò chơi' là hàng hóa ảo được cung cấp với một khoản phí trong Dịch vụ, có thể được đổi lấy nội dung."
+    ]
+  },
+  {
+    "title": "Điều 3 (Đồng ý với Thỏa thuận)",
+    "contentList": [
+      "1. Khách hàng phải đồng ý với Thỏa thuận này để sử dụng Dịch vụ.",
+      "2. Khách hàng dưới 14 tuổi phải có sự đồng ý của người giám hộ hợp pháp để sử dụng Dịch vụ."
+    ]
+  },
+  {
+    "title": "Điều 4 (Sửa đổi Thỏa thuận)",
+    "content": "Công ty có thể sửa đổi Thỏa thuận này khi cần thiết, trong phạm vi được pháp luật cho phép, và Thỏa thuận sửa đổi sẽ có hiệu lực sau khi thông báo trước."
+  },
+  {
+    "title": "Điều 5 (Quản lý tài khoản)",
+    "contentList": [
+      "1. Khách hàng chịu trách nhiệm quản lý tài khoản của mình và phải cẩn thận để tránh rò rỉ thông tin tài khoản.",
+      "2. Khách hàng chịu hoàn toàn trách nhiệm đối với mọi hậu quả phát sinh từ việc sử dụng tài khoản trái phép.",
+      "3. Tài khoản không được truy cập trong hơn một năm có thể bị xóa mà không cần thông báo trước."
+    ]
+  },
+  {
+    "title": "Điều 6 (Bảo vệ thông tin cá nhân)",
+    "contentList": [
+      "1. Công ty sẽ bảo vệ thông tin cá nhân của Khách hàng một cách phù hợp và tuân thủ các luật liên quan.",
+      "2. Các vấn đề liên quan đến việc thu thập và sử dụng thông tin cá nhân sẽ tuân theo 'Chính sách xử lý thông tin cá nhân' riêng biệt."
+    ]
+  },
+  {
+    "title": "Điều 7 (Cung cấp dịch vụ)",
+    "contentList": [
+      "1. Khách hàng phải tự chuẩn bị thiết bị, phần mềm và mạng cần thiết để sử dụng Dịch vụ.",
+      "2. Công ty có thể tạm thời đình chỉ cung cấp Dịch vụ mà không cần thông báo trước do bảo trì hệ thống hoặc các trường hợp bất khả kháng."
+    ]
+  },
+  {
+    "title": "Điều 8 (Quảng cáo)",
+    "contentList": [
+      "1. Công ty có thể hiển thị quảng cáo liên quan đến việc vận hành Dịch vụ.",
+      "2. Khách hàng có thể từ chối nhận thông tin quảng cáo không mong muốn."
+    ]
+  },
+  {
+    "title": "Điều 9 (Dịch vụ của bên thứ ba)",
+    "content": "Dịch vụ có thể bao gồm nội dung hoặc dịch vụ do bên thứ ba cung cấp, trong trường hợp này, các điều khoản sử dụng của bên thứ ba tương ứng sẽ được áp dụng."
+  },
+  {
+    "title": "Điều 10 (Nội dung)",
+    "contentList": [
+      "1. Bản quyền của nội dung được Khách hàng sử dụng trong Dịch vụ thuộc về Khách hàng. Tuy nhiên, Công ty có thể sử dụng nội dung công khai cho Dịch vụ và mục đích tiếp thị.",
+      "2. Khách hàng chỉ được sử dụng nội dung được cung cấp trong Dịch vụ trong phạm vi được phép."
+    ]
+  },
+  {
+    "title": "Điều 11 (Tiền tệ trong trò chơi)",
+    "contentList": [
+      "1. Tiền tệ trong trò chơi được cung cấp với một khoản phí và không được hoàn lại, trừ khi đáp ứng các yêu cầu pháp lý.",
+      "2. Tiền tệ trong trò chơi được gắn với tài khoản của Khách hàng và không thể chuyển nhượng cho người khác."
+    ]
+  },
+  {
+    "title": "Điều 12 (Hành vi bị cấm)",
+    "content": "Khách hàng không được thực hiện các hành vi sau khi sử dụng Dịch vụ.",
+    "contentList": [
+      "- Hành vi vi phạm pháp luật hoặc trật tự công cộng.",
+      "- Hành vi xâm phạm quyền của người khác.",
+      "- Hành vi truy cập hoặc sử dụng Dịch vụ bằng cách không được phép.",
+      "- Hoạt động thương mại không được phép trong Dịch vụ."
+    ]
+  },
+  {
+    "title": "Điều 13 (Trách nhiệm)",
+    "contentList": [
+      "1. Khách hàng chịu trách nhiệm đối với tất cả hành vi và hậu quả phát sinh từ việc sử dụng Dịch vụ.",
+      "2. Nếu Khách hàng vi phạm Thỏa thuận hoặc thực hiện hành vi bất hợp pháp, Công ty có thể hạn chế việc sử dụng Dịch vụ của họ."
+    ]
+  },
+  {
+    "title": "Điều 14 (Miễn trách nhiệm)",
+    "contentList": [
+      "1. Công ty không chịu trách nhiệm pháp lý đối với lỗi, gián đoạn hoặc mất dữ liệu trong Dịch vụ.",
+      "2. Công ty không chịu trách nhiệm đối với bất kỳ thiệt hại nào mà Khách hàng phải chịu liên quan đến việc sử dụng Dịch vụ."
+    ]
+  },
+  {
+    "title": "Điều 15 (Giải quyết tranh chấp)",
+    "content": "Tất cả các tranh chấp phát sinh liên quan đến Thỏa thuận này sẽ được giải quyết theo luật pháp của Hàn Quốc. Các tranh chấp giữa Công ty và Khách hàng sẽ được giải quyết tại tòa án có thẩm quyền tại nơi đặt trụ sở chính của Công ty."
+  },
+  {
+    "title": "Điều khoản bổ sung",
+    "content": "Thỏa thuận này có hiệu lực từ ngày 23 tháng 10 năm 2024."
+  }
+]
+  }
+}

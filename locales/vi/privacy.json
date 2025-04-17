@@ -1,0 +1,72 @@
+{
+  "data": {
+  "page_title": "Chính sách xử lý thông tin cá nhân",
+  "contents" :[
+  {
+    "content": "HaruHangul (sau đây gọi là 'Công ty') thiết lập và công bố Chính sách Bảo mật sau đây để bảo vệ thông tin cá nhân của người dùng (sau đây gọi là 'Người dùng') theo Luật Bảo vệ Thông tin Cá nhân và để giải quyết nhanh chóng và hiệu quả các khiếu nại liên quan."
+  },
+  {
+    "title": "1. Mục đích xử lý thông tin cá nhân",
+    "content": "Công ty xử lý thông tin cá nhân cho các mục đích sau. Thông tin cá nhân đã xử lý sẽ không được sử dụng cho các mục đích khác ngoài những mục đích được chỉ định, và nếu mục đích sử dụng thay đổi, sự đồng ý trước sẽ được yêu cầu.",
+    "contentList": [
+      "Cung cấp và vận hành dịch vụ: Thông tin cá nhân được xử lý để cung cấp nội dung học tập liên quan đến dịch vụ, các dịch vụ tùy chỉnh và thông tin.",
+      "Quản lý khách hàng: Thông tin cá nhân được xử lý để xác minh danh tính, xử lý khiếu nại và giải quyết các vấn đề liên quan đến việc sử dụng dịch vụ.",
+      "Tiếp thị và quảng cáo: Thông tin cá nhân được xử lý để phân tích thống kê nhằm phát triển các dịch vụ mới và cung cấp quảng cáo tùy chỉnh."
+    ]
+  },
+  {
+    "title": "2. Thời gian xử lý và lưu giữ thông tin cá nhân",
+    "content": "Công ty xử lý và lưu giữ thông tin cá nhân trong thời gian lưu giữ và sử dụng theo quy định của pháp luật hoặc theo sự đồng ý của Người dùng.",
+    "contentList": [
+      "Đăng ký và quản lý thành viên: Cho đến khi hủy bỏ tư cách thành viên.",
+      "Xử lý khiếu nại: 3 năm sau khi hoàn tất xử lý khiếu nại.",
+      "Liên quan đến thương mại điện tử: Lưu giữ trong 5 năm theo Luật Thương mại và Luật Bảo vệ Người tiêu dùng trong Thương mại Điện tử."
+    ]
+  },
+  {
+    "title": "3. Cung cấp thông tin cá nhân cho bên thứ ba",
+    "content": "Công ty có thể cung cấp thông tin cá nhân của chủ thể thông tin cho bên thứ ba theo Điều 17 và Điều 18 của Luật Bảo vệ Thông tin Cá nhân. Khi cung cấp thông tin cá nhân cho bên thứ ba, Công ty sẽ xin ý kiến đồng ý của chủ thể thông tin và thông báo rõ ràng về người nhận, mục đích và các hạng mục được cung cấp."
+  },
+  {
+    "title": "4. Quyền và nghĩa vụ của chủ thể thông tin và người đại diện pháp lý, và phương thức thực hiện",
+    "content": "Chủ thể thông tin có thể thực hiện quyền truy cập, sửa chữa, xóa hoặc tạm dừng xử lý thông tin cá nhân của mình bất kỳ lúc nào. Các quyền này có thể được thực hiện thông qua yêu cầu bằng văn bản, email hoặc các phương tiện khác, và Công ty sẽ thực hiện hành động mà không chậm trễ."
+  },
+  {
+    "title": "5. Các hạng mục thông tin cá nhân được xử lý",
+    "content": "Công ty xử lý các hạng mục thông tin cá nhân sau.",
+    "contentList": [
+      "Hạng mục bắt buộc: Tên, ngày sinh, email, ngôn ngữ, mục đích học tập, hồ sơ sử dụng dịch vụ.",
+      "Hạng mục tùy chọn: Giới tính, thời gian cư trú tại Hàn Quốc, quốc tịch, thông tin thanh toán."
+    ]
+  },
+  {
+    "title": "6. Quy trình và phương thức hủy bỏ thông tin cá nhân",
+    "content": "Công ty sẽ hủy bỏ thông tin cá nhân ngay lập tức khi thời gian lưu giữ hết hạn, mục đích xử lý được hoàn thành, hoặc thông tin trở nên không cần thiết. Các tệp điện tử được hủy bằng các phương pháp không thể khôi phục, và thông tin cá nhân được ghi trên tài liệu giấy được hủy bằng cách nghiền nát.",
+    "contentList": [
+      "Quy trình hủy: Thông tin cá nhân được hủy ngay lập tức khi có lý do hủy.",
+      "Phương thức hủy: Thông tin dưới dạng tệp điện tử được hủy bằng phương pháp không thể khôi phục, và thông tin dưới dạng tài liệu giấy được nghiền nát bằng máy hủy."
+    ]
+  },
+  {
+    "title": "7. Các biện pháp đảm bảo an toàn thông tin cá nhân",
+    "content": "Công ty thực hiện các biện pháp sau để đảm bảo an toàn thông tin cá nhân.",
+    "contentList": [
+      "Biện pháp quản lý: Thiết lập và thực hiện kế hoạch quản lý nội bộ, đào tạo nhân viên.",
+      "Biện pháp kỹ thuật: Quản lý quyền truy cập vào hệ thống xử lý thông tin cá nhân, cài đặt hệ thống kiểm soát truy cập."
+    ]
+  },
+  {
+    "title": "8. Người phụ trách bảo vệ thông tin cá nhân",
+    "content": "Công ty chỉ định Người phụ trách Bảo vệ Thông tin Cá nhân để giám sát các nhiệm vụ liên quan đến xử lý thông tin cá nhân và giải quyết các khiếu nại liên quan đến bảo vệ thông tin cá nhân, như sau.",
+    "contentList": [
+      "Người phụ trách Bảo vệ Thông tin Cá nhân: Nam Yeonjin",
+      "Liên hệ: haruhanguel5@gmail.com"
+    ]
+  },
+  {
+    "title": "9. Phương thức khắc phục vi phạm quyền lợi",
+    "content": "Chủ thể thông tin có thể nộp đơn xin giải quyết tranh chấp hoặc tư vấn tại Ủy ban Hòa giải Tranh chấp Thông tin Cá nhân, Trung tâm Báo cáo Vi phạm Thông tin Cá nhân hoặc các tổ chức liên quan khác để tìm kiếm biện pháp khắc phục thiệt hại do vi phạm thông tin cá nhân."
+  }
+]
+  }
+}

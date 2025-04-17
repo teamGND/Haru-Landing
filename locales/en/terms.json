@@ -1,0 +1,111 @@
+{
+  "data" :{
+    "page_title": "Terms of Service",   
+    "contents" : [
+  {
+    "title": "Article 1 (Purpose)",
+    "content": "This Agreement (hereinafter referred to as the 'Agreement') aims to regulate the rights, obligations, and responsibilities between HaruHangul (hereinafter referred to as the 'Company') and the customer (hereinafter referred to as the 'Customer') using the app service provided by the Company (hereinafter referred to as the 'Service')."
+  },
+  {
+    "title": "Article 2 (Definition of Terms)",
+    "contentList": [
+      "1. 'Account' refers to the unique identification information created by the Customer to use the Service.",
+      "2. 'Content' refers to text, images, audio, videos, software, etc., provided within the Service.",
+      "3. 'Posted Content' refers to all content uploaded or submitted by the Customer to the Service.",
+      "4. 'Paid Service' refers to services or content provided for a fee.",
+      "5. 'In-Game Currency' refers to virtual goods provided for a fee within the Service, which can be exchanged for content."
+    ]
+  },
+  {
+    "title": "Article 3 (Agreement to Terms)",
+    "contentList": [
+      "1. Customers must agree to this Agreement to use the Service.",
+      "2. Customers under the age of 14 must obtain the consent of a legal guardian to use the Service."
+    ]
+  },
+  {
+    "title": "Article 4 (Amendment of Terms)",
+    "content": "The Company may amend this Agreement as necessary, within the scope permitted by law, and the amended Agreement shall take effect after prior notice."
+  },
+  {
+    "title": "Article 5 (Account Management)",
+    "contentList": [
+      "1. Customers are responsible for managing their accounts and must take care to prevent the leakage of account information.",
+      "2. Customers bear full responsibility for any consequences arising from the unauthorized use of their accounts.",
+      "3. Accounts that have not been accessed for more than one year may be deleted without prior notice."
+    ]
+  },
+  {
+    "title": "Article 6 (Personal Information Protection)",
+    "contentList": [
+      "1. The Company shall appropriately protect Customers' personal information and comply with relevant laws.",
+      "2. Matters regarding the collection and use of personal information shall be governed by a separate 'Privacy Policy.'"
+    ]
+  },
+  {
+    "title": "Article 7 (Service Provision)",
+    "contentList": [
+      "1. Customers must prepare the necessary equipment, software, and network to use the Service.",
+      "2. The Company may temporarily suspend the provision of the Service without prior notice due to system maintenance or force majeure."
+    ]
+  },
+  {
+    "title": "Article 8 (Advertisements)",
+    "contentList": [
+      "1. The Company may display advertisements related to the operation of the Service.",
+      "2. Customers may opt out of receiving unwanted promotional information."
+    ]
+  },
+  {
+    "title": "Article 9 (Third-Party Services)",
+    "content": "The Service may include content or services provided by third parties, in which case the terms of use of the respective third party shall apply."
+  },
+  {
+    "title": "Article 10 (Content)",
+    "contentList": [
+      "1. The copyright of the content used by the Customer in the Service belongs to the Customer. However, the Company may use publicly available content for the Service and marketing purposes.",
+      "2. Customers shall use the content provided within the Service only within the permitted scope."
+    ]
+  },
+  {
+    "title": "Article 11 (In-Game Currency)",
+    "contentList": [
+      "1. In-Game Currency is provided for a fee and is non-refundable, except in cases where legal requirements are met.",
+      "2. In-Game Currency is tied to the Customer's account and cannot be transferred to others."
+    ]
+  },
+  {
+    "title": "Article 12 (Prohibited Actions)",
+    "content": "Customers shall not engage in the following actions while using the Service.",
+    "contentList": [
+      "- Actions that violate laws or public order.",
+      "- Actions that infringe on the rights of others.",
+      "- Actions that involve unauthorized access to or use of the Service.",
+      "- Unauthorized commercial activities within the Service."
+    ]
+  },
+  {
+    "title": "Article 13 (Liability)",
+    "contentList": [
+      "1. Customers are responsible for all actions and their consequences arising from the use of the Service.",
+      "2. If a Customer violates the Agreement or engages in illegal activities, the Company may restrict their use of the Service."
+    ]
+  },
+  {
+    "title": "Article 14 (Indemnification)",
+    "contentList": [
+      "1. The Company shall not be legally liable for errors, interruptions, or data loss within the Service.",
+      "2. The Company shall not be liable for any damages incurred by the Customer in connection with the use of the Service."
+    ]
+  },
+  {
+    "title": "Article 15 (Dispute Resolution)",
+    "content": "All disputes arising in connection with this Agreement shall be resolved in accordance with the laws of the Republic of Korea. Disputes between the Company and the Customer shall be resolved in the court having jurisdiction over the location of the Company’s headquarters."
+  },
+  {
+    "title": "Supplementary Provisions",
+    "content": "This Agreement shall take effect from October 23, 2024."
+  }
+  ]
+  }
+}
