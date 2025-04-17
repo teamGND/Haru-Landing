@@ -1,5 +1,6 @@
 /* Top Navigation Bar */
 .top-bar {
+  width: 95%;
   z-index: 100;
   margin: 20px;
   padding: 10px 25px;

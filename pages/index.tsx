@@ -42,10 +42,9 @@ const Home: React.FC = () => {
           })}
         </script>
       </Head>
-      <header>
-        <MenuBar />
-      </header>
       <main>
+        <MenuBar />
+
         <section id="home">
           <HomePage />
         </section>
@@ -65,9 +64,8 @@ const Home: React.FC = () => {
           <ContactPage />
         </section>
       </main>
-      <footer>
-        <Footer />
-      </footer>
+      
+      <Footer />
     </div>
   );
 };

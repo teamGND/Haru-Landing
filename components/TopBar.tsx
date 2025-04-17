@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next'; // Import useTranslation hook
 import styles from '../styles/TopBar.module.css';
+import logo from '../public/images/logo-colored.png'; // Adjust the path as necessary
 
 const TopBar: React.FC = () => {
   const [isLanguageMenuOpen, setIsLanguageMenuOpen] = useState(false);
@@ -32,8 +33,8 @@ const TopBar: React.FC = () => {
   const currentLanguage = languages.find(lang => lang.code === i18n.language)?.name || 'Korean';
 
   return (
-    <div className={styles['top-bar']}>
-      <img src="images/logo-colored.png" alt="Logo" className={styles.logo} />
+    <div className={styles['top-bar']}> 
+      <img src={logo.src} alt="Logo" className={styles['logo']} />
       <div className={styles['top-bar-buttons']}>
         <a href='https://www.paypal.com/ncp/payment/SG466C5KKQQJW'>
           <button className={styles['donate-button']}>DONATE</button>

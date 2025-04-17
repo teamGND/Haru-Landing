@@ -2,6 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import styles from '../styles/TermsPage.module.css';
 import { useRouter } from 'next/router';
+import TopBar from './TopBar';
 
 interface TermsContent {
   title?: string;
@@ -20,7 +21,6 @@ interface TermsPageProps {
   contents: TermsContent[];
   iconUrl: string;
 }
-
 
 const TermsPage: React.FC<TermsPageProps> = ({ title, contents, iconUrl }) => {
   const router = useRouter();
@@ -72,13 +72,14 @@ const TermsPage: React.FC<TermsPageProps> = ({ title, contents, iconUrl }) => {
 
   return (
     <div className={styles['terms-page']}>
+      <TopBar />
       <div className={styles.header}>
         <div className={styles['header-left']}>
           <img src={iconUrl} alt="Icon" className={styles.logo} />
           <h1 className={styles.title}>{title}</h1>
         </div>
         <button onClick={() => router.back()} className={styles['cancel-button']} aria-label="Close page">
-          ✕
+           ✕
         </button>
       </div>
       <div className={styles['content-container']}>
